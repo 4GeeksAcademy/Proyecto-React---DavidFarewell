@@ -1,0 +1,31 @@
+.jumbotron {
+    background: linear-gradient(135deg, #222, #333);
+    padding: 50px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: left;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+    color: #bbbbbb;
+}
+
+.jumbotron button {
+    background-color: #007bff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.jumbotron button:hover {
+    background-color: #0056b3;
+}
