@@ -10,7 +10,6 @@ const Card = (props) => {
                 <h5 className={styles.cardTitle}>{title}</h5>
                 <p className={styles.cardText}>{description}</p>
                 <hr className={styles.divider} />
-                {/* 🔹 Reemplazamos "btn btn-primary" por una clase propia para evitar Bootstrap */}
                 <button className={styles.cardButton}>Find out More!</button>
             </div>
         </div>
