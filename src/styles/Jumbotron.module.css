@@ -1,31 +1,74 @@
-.jumbotron {
-    background: linear-gradient(135deg, #222, #333);
-    padding: 50px;
+/* 🔹 Contenedor principal del Jumbotron */
+.jumbotronContainer {
+    background-color: #2a2a2a; /* 🔹 Restauramos el fondo gris oscuro */
+    padding: 40px;
     border-radius: 10px;
-    color: #ffffff;
-    text-align: left;
-    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px; /* 🔹 Ancho máximo alineado con las cards */
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 🔹 Sombra para profundidad */
 }
 
-.jumbotron h1 {
-    font-size: 2.5rem;
+/* 🔹 Contenido del Jumbotron */
+.jumbotronContent {
+    max-width: 100%;
+    padding: 20px;
+}
+
+/* 🔹 Título del Jumbotron */
+.jumbotronTitle {
+    font-size: 2rem;
     font-weight: bold;
-    color: #ffffff;
+    color: white;
 }
 
-.jumbotron p {
-    font-size: 1.2rem;
+/* 🔹 Texto del Jumbotron */
+.jumbotronText {
+    font-size: 1rem;
     color: #bbbbbb;
 }
 
-.jumbotron button {
-    background-color: #007bff;
-    border: none;
-    padding: 12px 24px;
+/* 🔹 Botón con degradado morado */
+.jumbotronButton {
+    display: inline-block;
+    padding: 12px 20px;
     font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
     border-radius: 5px;
+    border: none;
+    background: linear-gradient(135deg, #a85cf9, #6d28d9);
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    cursor: pointer;
 }
 
-.jumbotron button:hover {
-    background-color: #0056b3;
+.jumbotronButton:hover {
+    background: linear-gradient(135deg, #b56cfb, #7d3be5);
+    transform: scale(1.05);
+}
+
+.jumbotronButton:active {
+    background: linear-gradient(135deg, #b56cfb, #7d3be5);
+    transform: scale(0.98);
+}
+
+/* 🔹 Ajuste responsive para que el Jumbotron mantenga el mismo ancho que las cards */
+@media (max-width: 992px) {
+    .jumbotronContainer {
+        max-width: 720px; /* 🔹 Coincide con el ancho de las cards en pantallas medianas */
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotronContainer {
+        max-width: 540px; /* 🔹 Se ajusta a dos columnas de cards */
+    }
+}
+
+@media (max-width: 576px) {
+    .jumbotronContainer {
+        max-width: 100%; /* 🔹 Ocupa todo el ancho cuando hay una sola card por fila */
+    }
 }

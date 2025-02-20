@@ -7,10 +7,11 @@ const Card = (props) => {
         <div className={`card h-100 ${styles.card}`}>
             <img src={image} className={`card-img-top ${styles.cardImg}`} alt={title} />
             <div className={`card-body ${styles.cardBody}`}>
-                <h5 className="card-title">{title}</h5>
-                <p className="card-text">{description}</p>
+                <h5 className={styles.cardTitle}>{title}</h5>
+                <p className={styles.cardText}>{description}</p>
                 <hr className={styles.divider} />
-                <button className="btn btn-primary">Find out More!</button>
+                {/* 🔹 Reemplazamos "btn btn-primary" por una clase propia para evitar Bootstrap */}
+                <button className={styles.cardButton}>Find out More!</button>
             </div>
         </div>
     );

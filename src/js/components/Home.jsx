@@ -6,19 +6,38 @@ import Footer from "./Footer.jsx";
 import styles from "../../styles/Home.module.css";
 
 const cards = [
-    { image: "https://picsum.photos/id/10/200/300", title: "Parque", description: "Parque" },
-    { image: "https://picsum.photos/id/17/200/300", title: "Sendero", description: "Sendero" },
-    { image: "https://picsum.photos/id/28/200/300", title: "Bosque", description: "Bosque" },
-    { image: "https://picsum.photos/id/54/200/300", title: "Montaña", description: "Montaña" }
+    {
+        image: "https://picsum.photos/id/10/200/300",
+        title: "Parque",
+        description: "Parque con lindo paisaje",
+    },
+    {
+        image: "https://picsum.photos/id/17/200/300",
+        title: "Sendero",
+        description: "Sendero con lindo paisaje",
+    },
+    {
+        image: "https://picsum.photos/id/28/200/300",
+        title: "Bosque",
+        description: "Bosque con lindo paisaje",
+    },
+    {
+        image: "https://picsum.photos/id/54/200/300",
+        title: "Montaña",
+        description: "Montaña con lindo paisaje",
+    }
 ];
 
 const Home = () => {
     return (
-        <div className={`text-center ${styles.container}`}>
+        <div className={styles.homeContainer}>
             <Navbar />
-            <Jumbotron />
+            {/* 🔹 Contenedor para el Jumbotron que lo alinea con las cards */}
+            <div className={styles.jumbotronWrapper}>
+                <Jumbotron />
+            </div>
             <div className="container">
-                <div className={`row ${styles.row}`}>
+                <div className="row">
                     {cards.map((item, index) => (
                         <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" key={index}>
                             <Card cards={item} />
