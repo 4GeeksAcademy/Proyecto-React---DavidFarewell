@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-lg navbar-dark ${styles.navbar}`}>
             <div className="container">
-                <a className={`navbar-brand ${styles.navbarBrand}`} href="#">Farewell Valley</a>
+                <a className={`navbar-brand ${styles.navbarBrand}`} href="#">Megustaelcampo.com</a>
                 <button 
                     className="navbar-toggler"
                     type="button" 
