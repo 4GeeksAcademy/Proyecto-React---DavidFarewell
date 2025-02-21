@@ -4,7 +4,7 @@ import Jumbotron from "./Jumbotron.jsx";
 import Card from "./Card.jsx";
 import Footer from "./Footer.jsx";
 import styles from "../../styles/Home.module.css";
-import cardsData from "./cardsData.jsx"; // ✅ Importamos los datos de las tarjetas
+import cardsData from "./cardsData.jsx"; 
 
 const Home = () => {
     return (
