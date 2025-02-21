@@ -3,7 +3,7 @@
     padding: 20px;
 }
 
-/* 🔹 Contenedor para alinear el Jumbotron con las cards */
+/* alinear Jumbotron con las cards */
 .jumbotronWrapper {
     display: flex;
     justify-content: center;

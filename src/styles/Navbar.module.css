@@ -4,12 +4,11 @@
     padding: 10px 0;
 }
 
-/* 🔹 Forzar el color blanco en todos los textos del navbar */
 .navbar * {
     color: white !important;
 }
 
-/* 🔹 Asegurar que la marca (logo) sea blanca */
+
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
@@ -21,7 +20,7 @@
     color: #007bff !important;
 }
 
-/* 🔹 Solución final para los enlaces del navbar */
+
 .navbar-nav .nav-link {
     color: white !important;
     font-size: 1rem;
@@ -33,11 +32,11 @@
     color: #007bff !important;
 }
 
-/* 🔹 Asegurar que el botón del menú hamburguesa sea blanco */
+
 .navbar-toggler {
     border-color: white !important;
 }
 
 .navbar-toggler-icon {
-    filter: invert(1); /* Hace que el ícono del menú hamburguesa sea blanco */
+    filter: invert(1);
 }

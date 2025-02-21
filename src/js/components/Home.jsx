@@ -32,7 +32,7 @@ const Home = () => {
     return (
         <div className={styles.homeContainer}>
             <Navbar />
-            {/* 🔹 Contenedor para el Jumbotron que lo alinea con las cards */}
+            {/*ALINEAR JUMBO CON CARDS*/}
             <div className={styles.jumbotronWrapper}>
                 <Jumbotron />
             </div>

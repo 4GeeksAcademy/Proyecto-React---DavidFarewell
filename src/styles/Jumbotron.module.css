@@ -1,35 +1,35 @@
-/* 🔹 Contenedor principal del Jumbotron */
+
 .jumbotronContainer {
-    background-color: #2a2a2a; /* 🔹 Restauramos el fondo gris oscuro */
+    background-color: #2a2a2a; 
     padding: 40px;
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
-    max-width: 1200px; /* 🔹 Ancho máximo alineado con las cards */
+    max-width: 1200px; 
     width: 100%;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 🔹 Sombra para profundidad */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
-/* 🔹 Contenido del Jumbotron */
+
 .jumbotronContent {
     max-width: 100%;
     padding: 20px;
 }
 
-/* 🔹 Título del Jumbotron */
+
 .jumbotronTitle {
     font-size: 2rem;
     font-weight: bold;
     color: white;
 }
 
-/* 🔹 Texto del Jumbotron */
+
 .jumbotronText {
     font-size: 1rem;
     color: #bbbbbb;
 }
 
-/* 🔹 Botón con degradado morado */
+
 .jumbotronButton {
     display: inline-block;
     padding: 12px 20px;
@@ -54,21 +54,21 @@
     transform: scale(0.98);
 }
 
-/* 🔹 Ajuste responsive para que el Jumbotron mantenga el mismo ancho que las cards */
+
 @media (max-width: 992px) {
     .jumbotronContainer {
-        max-width: 720px; /* 🔹 Coincide con el ancho de las cards en pantallas medianas */
+        max-width: 720px; 
     }
 }
 
 @media (max-width: 768px) {
     .jumbotronContainer {
-        max-width: 540px; /* 🔹 Se ajusta a dos columnas de cards */
+        max-width: 540px; 
     }
 }
 
 @media (max-width: 576px) {
     .jumbotronContainer {
-        max-width: 100%; /* 🔹 Ocupa todo el ancho cuando hay una sola card por fila */
+        max-width: 100%; 
     }
 }

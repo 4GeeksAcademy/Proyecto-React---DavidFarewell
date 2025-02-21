@@ -39,7 +39,7 @@
     margin: 10px auto;
 }
 
-/* 🔹 Botón morado con degradado */
+
 .cardButton {
     display: inline-block;
     width: 100%;
@@ -65,7 +65,7 @@
     transform: scale(0.98);
 }
 
-/* 🔹 Elimina cualquier sombra o borde de Bootstrap */
+
 .cardButton:focus {
     outline: none;
     box-shadow: none !important;
