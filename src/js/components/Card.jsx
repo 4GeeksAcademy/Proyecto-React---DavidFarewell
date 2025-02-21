@@ -10,7 +10,7 @@ const Card = (props) => {
                 <h5 className={styles.cardTitle}>{title}</h5>
                 <p className={styles.cardText}>{description}</p>
                 <hr className={styles.divider} />
-                <button className={styles.cardButton}>Find out More!</button>
+                <button className={styles.cardButton}>¡Lo Quiero!</button>
             </div>
         </div>
     );
